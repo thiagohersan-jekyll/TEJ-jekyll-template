@@ -1,0 +1,23 @@
+# Site
+title: My Site
+subtitle: 
+
+# URL
+url: http://mysite.com
+baseurl: /
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4448
+future: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
